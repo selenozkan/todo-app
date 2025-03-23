@@ -15,5 +15,5 @@ def write_todos(todos_arg, filepath=FILEPATH):  # default parameter should come 
 
 
 # print(__name__)
-if __name__ == '__main__':
+if __name__ == '__main__':  # this script is true when this file is executed directly
     print('Hello')
