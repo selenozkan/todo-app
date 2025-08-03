@@ -1,4 +1,4 @@
-# ✅ To-Do List App (Python + PySimpleGUI)
+# To-Do List App (Python + PySimpleGUI)
 
 A simple desktop To-Do List application built with **Python** and **PySimpleGUI**. This project allows users to manage their tasks through a user-friendly graphical interface. Users can add, edit, complete, and remove tasks — all saved locally in a `.txt` file. This project is developed as a part of Udemy course.
 
@@ -34,7 +34,8 @@ python gui.py
 ```
 
 
-## 🌱  What else?
+## Try it!
 
-The executable version of this application can be found [here](https://github.com/selenozkan/my-todo-app)
+Visit my to-do app from here: [Let's go](https://selenozkan-my-todo-app-web-hakaad.streamlit.app)
+
 
