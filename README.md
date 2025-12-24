@@ -1,6 +1,6 @@
 # To-Do List App (CLI · Desktop GUI · Web)
 
-A simple desktop To-Do List application. It allows users to manage their tasks through a user-friendly graphical interface. Users can add, edit, complete, and remove tasks — all saved locally in a `.txt` file. This project is developed as a part of Udemy course.
+A simple desktop To-Do List application. It allows users to manage their tasks through a user-friendly graphical interface. Users can add, edit, complete, and remove tasks — all saved locally in a `.txt` file.
 
 This repository contains **three versions of the same To-Do List application**, all sharing the same core logic:
 
@@ -68,3 +68,5 @@ streamlit run web.py
 ```
 
 ---
+
+ This project is developed as a part of [Udemy course](https://www.udemy.com/course/the-python-mega-course/?couponCode=CM251224G1)
