@@ -26,8 +26,7 @@ todo-app/
 └── README.md
 ```
 ---
-## 🧰 Setup
-### 0) **Python 3.10+** (required)
+## 🧰 Setup (Python 3.10+ required)
 
 ### 1) Get the project
 ```bash
