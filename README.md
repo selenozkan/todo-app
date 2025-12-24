@@ -67,7 +67,4 @@ python gui.py
 streamlit run web.py
 ```
 
-Live Streamlit version:
-https://selenozkan-my-todo-app-web-hakaad.streamlit.app
-
 ---
