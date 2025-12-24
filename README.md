@@ -1,41 +1,74 @@
-# To-Do List App (Python + PySimpleGUI)
+# To-Do List App (CLI · Desktop GUI · Web)
 
-A simple desktop To-Do List application built with **Python** and **PySimpleGUI**. This project allows users to manage their tasks through a user-friendly graphical interface. Users can add, edit, complete, and remove tasks — all saved locally in a `.txt` file. This project is developed as a part of Udemy course.
+A simple desktop To-Do List application. It allows users to manage their tasks through a user-friendly graphical interface. Users can add, edit, complete, and remove tasks — all saved locally in a `.txt` file. This project is developed as a part of Udemy course.
 
-## 🖥 What can you do with this app?
+This repository contains **three versions of the same To-Do List application**, all sharing the same core logic:
 
-- Add new to-do items  
-- Edit existing tasks  
-- Mark tasks as completed (removes them from the list)  
-- Live clock display  
-- Tasks saved persistently to `todos.txt`  
-- Minimal, clean GUI built with PySimpleGUI  
-- Error handling with popup alerts
+1. **Command-line version** (CLI)
+2. **Desktop GUI version** (FreeSimpleGUI)
+3. **Web version** (Streamlit – deployed)
 
-## 📂 File Structure
+All three versions reuse the same backend logic (`functions.py`) and persist tasks in `todos.txt`.
+
+
+---
+
+## 📂 Project Structure
 
 ```
 todo-app/
-├── gui.py           # Main GUI logic using PySimpleGUI
-├── functions.py     # File read/write logic for the to-do list
-├── todos.txt        # Text file that stores user tasks
+├── functions.py     # Shared todo logic
+├── todos.txt        # Persistent storage for tasks
+├── cli.py           # Command-line interface version
+├── gui.py           # Desktop GUI version (FreeSimpleGUI)
+├── web.py           # Web version (Streamlit)
+├── requirements.txt # Dependencies for GUI + Web
+└── README.md
+```
+---
+## 🧰 Setup
+### 0) **Python 3.10+** (required)
+
+### 1) Get the project
+```bash
+git clone https://github.com/selenozkan/todo-app.git
+cd todo-app
+```
+### 2) Create & activate a virtual environment (recommended)
+
+**macOS / Linux**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+### 3) Install dependencies
+```bash
+pip install -r requirements.txt
+```
+---
+
+## ▶️ Run the three versions
+
+## 🔹 Version 1: Command-Line Interface (CLI)
+```bash
+python cli.py
 ```
 
-## 🔧 What do you need to run this app?
+---
 
-- Python 3.10+  
-- [PySimpleGUI](https://pysimplegui.readthedocs.io/)  
-- Built-in Python libraries: `os`, `time`
-
-## ▶️ How to Run
-
+## 🔹 Version 2: Desktop GUI Application
 ```bash
 python gui.py
 ```
 
+---
 
-## Try it!
+## 🔹 Version 3: Web Application (Streamlit)
+```bash
+streamlit run web.py
+```
 
-Visit my to-do app from here: [Let's go](https://selenozkan-my-todo-app-web-hakaad.streamlit.app)
+Live Streamlit version:
+https://selenozkan-my-todo-app-web-hakaad.streamlit.app
 
-
+---
