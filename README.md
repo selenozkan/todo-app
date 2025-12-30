@@ -69,4 +69,4 @@ streamlit run web.py
 
 ---
 
- This project is developed as a part of [Udemy course](https://www.udemy.com/course/the-python-mega-course/?couponCode=CM251224G1)
+ This project is developed as a part of [Udemy course](https://www.udemy.com/course/the-python-mega-course/)
